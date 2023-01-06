@@ -1,8 +1,5 @@
-import H1 from './H1.svelte'
-import H2 from './H2.svelte'
-import H3 from './H3.svelte'
-import H4 from './H4.svelte'
-import B from './B.svelte'
-import L from './L.svelte'
+import Text from './Text.svelte'
+import Label from './Label.svelte'
+import Heading from './H.svelte'
 
-export { H1, H2, H3, H4, B, L }
+export { Text, Label, Heading }
