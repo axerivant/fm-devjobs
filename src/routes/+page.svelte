@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Card } from '@/ui/base'
-	import { Button, ThemeToggle } from '@/ui/interactive'
+	import { Button, Checkbox, ThemeToggle } from '@/ui/interactive'
 	import { Label, Heading, Text } from '@/ui/typography'
 </script>
 
@@ -12,5 +12,6 @@
 		<Text>Body</Text>
 		<Button label="Button A" />
 		<Button label="Button B" type="secondary" />
+		<Checkbox />
 	</Card>
 </div>
