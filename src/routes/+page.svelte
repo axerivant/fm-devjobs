@@ -1,7 +1,3 @@
 <script lang="ts">
-	import { ThemeToggle } from '@/ui/interactive'
+	import { Header } from '@/ui/common'
 </script>
-
-<div class="bg-black">
-	<ThemeToggle />
-</div>
