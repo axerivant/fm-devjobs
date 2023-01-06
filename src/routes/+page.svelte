@@ -12,6 +12,6 @@
 		<Text>Body</Text>
 		<Button label="Button A" />
 		<Button label="Button B" type="secondary" />
-		<Checkbox />
+		<Checkbox label="Sell my soul" />
 	</Card>
 </div>
