@@ -9,7 +9,7 @@
 	export let job: Job
 </script>
 
-<Card flex="col" tw="w-3/12">
+<Card isInteractive flex="col" tw="w-3/12">
 	<Logo path={job.logo} />
 	<div class="top-2 flex gap-6 -mt-8">
 		<Label>{job.postedAt}</Label>

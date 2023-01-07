@@ -7,7 +7,7 @@
 	import { Button, Checkbox, InputText } from '@/ui/interactive'
 </script>
 
-<Card flex="row" tw="justify-between">
+<Card flex="row" tw="justify-between w-8/12 -mt-12">
 	<div class="group w-6/12">
 		<img src={SearchSVG} alt="" />
 		<InputText placeholder="Filter by title, companies, expertise…" />
