@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Theme from '@/global/theme'
 
-	export let width: string = ''
 	export let flex: 'row' | 'col' | '' = ''
 	export let tw: string = ''
 </script>
