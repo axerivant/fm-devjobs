@@ -7,7 +7,7 @@
 	const Jobs = fetchDefaultJobs()
 </script>
 
-<div class="flex justify-center flex-wrap gap-6">
+<div class="flex justify-center flex-wrap gap-8">
 	{#each Jobs as job}
 		<SearchResult {job} />
 	{/each}
