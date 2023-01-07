@@ -5,7 +5,6 @@
 	export let path: string
 	export let size: 'nm' | 'xl' = 'nm'
 
-	let logo: HTMLImageElement
 	let bg: string
 
 	onMount(() => {
@@ -23,7 +22,6 @@
 		style:background-color={bg}
 	>
 		<img
-			bind:this={logo}
 			src={path}
 			alt=""
 			class="h-full w-full object-contain bg-blend-color-burn"
@@ -32,7 +30,6 @@
 {:else if size === 'xl'}
 	<div class=" p-6 h-36 w-36 rounded my-3" style:background-color={bg}>
 		<img
-			bind:this={logo}
 			src={path}
 			alt=""
 			class="h-full w-full object-contain bg-blend-color-burn"

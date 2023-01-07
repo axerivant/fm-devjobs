@@ -5,11 +5,10 @@
 
 	const jobID = $page.params.jobID
 	const job = getJobByID(jobID)
-	console.log(job)
 </script>
 
 <div class="flex flex-col items-center">
-	<div class="w-8/12">
+	<div class="w-6/12">
 		<JobViewer {job} />
 	</div>
 </div>

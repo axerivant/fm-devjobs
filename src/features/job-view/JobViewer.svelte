@@ -1,11 +1,13 @@
 <script lang="ts">
+	import Company from './Company.svelte'
+	import Description from './Description.svelte'
+	import Footer from './Footer.svelte'
+
 	export let job: Job
-	import { Card } from '@/ui/base'
-	import { Logo } from '@/ui/common'
-	import { Heading } from '@/ui/typography'
 </script>
 
-<Card flex="row">
-	<Logo size="xl" path={job.logo} />
-	<Heading level="2">{job.company}</Heading>
-</Card>
+<div class="flex flex-col gap-6">
+	<Company {job} />
+	<Description {job} />
+	<Footer {job} />
+</div>
