@@ -1,17 +1,11 @@
 <script lang="ts">
-	import { Card } from '@/ui/base'
-	import { Button, Checkbox, ThemeToggle } from '@/ui/interactive'
-	import { Label, Heading, Text } from '@/ui/typography'
+	import Search from '@/features/jobs-search'
+	import { Background, Header } from '@/ui/common'
 </script>
 
-<div class="flex flex-col justify-center items-center p-36 bg-gray-700">
-	<ThemeToggle />
-	<Card flex="col" tw="justify-center items-left">
-		<Heading level="1">Heading</Heading>
-		<Label>Label</Label>
-		<Text>Body</Text>
-		<Button label="Button A" />
-		<Button label="Button B" type="secondary" />
-		<Checkbox label="Sell my soul" />
-	</Card>
+<div class="p-12 px-48 flex flex-col gap-6">
+	<Header />
+	<Search />
 </div>
+
+<Background />

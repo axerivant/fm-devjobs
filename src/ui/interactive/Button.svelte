@@ -3,6 +3,7 @@
 
 	export let label: string
 	export let type: 'primary' | 'secondary' = 'primary'
+	export let width: string = 'fit'
 </script>
 
 {#if type === 'primary'}
@@ -17,10 +18,10 @@
 {#if type === 'secondary'}
 	<button
 		class="
+        transition-all w-[{width}]
             {$Theme === 'light'
 			? 'text-indigo-500 bg-indigo-100 hover:bg-indigo-200'
-			: 'text-white bg-gray-600 hover:bg-gray-500'} 
-            transition-all"
+			: 'text-white bg-gray-600 hover:bg-gray-500'}"
 		on:click
 	>
 		{label}
