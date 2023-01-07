@@ -3,5 +3,7 @@
 	import SearchResults from './SearchResults.svelte'
 </script>
 
-<SearchBox />
-<SearchResults />
+<div class="flex flex-col gap-12">
+	<SearchBox />
+	<SearchResults />
+</div>

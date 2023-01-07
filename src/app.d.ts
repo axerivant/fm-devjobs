@@ -1,9 +1,21 @@
-// See https://kit.svelte.dev/docs/types#app
-// for information about these interfaces
-// and what to do when importing types
-declare namespace App {
-	// interface Error {}
-	// interface Locals {}
-	// interface PageData {}
-	// interface Platform {}
+interface Job {
+	id: string
+	company: string
+	logo: string
+	logoBackground: string
+	position: string
+	postedAt: string
+	contract: string
+	location: string
+	website: string
+	apply: string
+	description: string
+	requirements: {
+		content: string
+		items: string[]
+	}
+	role: {
+		content: string
+		items: string[]
+	}
 }
